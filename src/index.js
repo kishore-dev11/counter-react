@@ -1,7 +1,7 @@
-import { useState } from "react"
-import ReactDom from "react-dom/client"
+import { useState } from "react";
+import ReactDOM from "react-dom/client";
 import Counter from "./Counter"
 
-const root=ReactDom.createRoot(document.getElementById("root"))
+const root=ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(<Counter />)
